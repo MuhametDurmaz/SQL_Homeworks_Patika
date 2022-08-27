@@ -1,0 +1,11 @@
+# Patika_SQL_HW9
+www.patika.dev
+## Question 1
+select city, country from city
+inner join country on city.country_id = country.country_id;
+## Question 2 
+select payment_id, first_name, last_name from customer
+inner join payment on customer.customer_id = payment.customer_id ;
+## Question 3
+select renta_id, first_name, last_name from customer
+inner join rental on rental.customer_id = customer.customer_id ;

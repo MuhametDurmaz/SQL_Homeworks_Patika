@@ -1,0 +1,19 @@
+# Patika_SQL_HW4
+www.patika.dev
+## Question 1
+select distinct replacement_cost from film;
+## Question 2
+select count(distinct replacement_cost) from film;
+Answer is 21.
+## Question 3
+select count(*) from film
+where rating = 'G' and title like 'T%';
+The answer is 9
+## Question 4
+select count(distinct country) from country
+where country like '_____';
+The answer is 13
+## Question 5
+select count(*) from city
+where city ilike '%r';
+The answer is 33

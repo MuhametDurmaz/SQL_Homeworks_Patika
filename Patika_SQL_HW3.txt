@@ -1,0 +1,14 @@
+# Patika_SQL_HW3
+www.patika.dev
+## Question 1
+select * from country
+where country like 'A%a';
+## Question 2
+select * from country
+where country like '_____%n';
+## Question 3
+select title from film
+where title ilike '%T%T%T%T';
+## Question 4
+select * from film
+where title ~~ 'C%' and length > 90 and rental_rate = 2.99;

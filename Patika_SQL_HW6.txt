@@ -1,0 +1,16 @@
+# Patikla_SQL_HW6
+www.patika.dev 
+## Question 1
+ select avg(rental_rate) from film;
+ The answer is 2.98
+## Question 2
+select count(title like 'C%') from film;
+The answer is 1000
+## Question 3
+select max(length) from film
+where rental_rate = 0.99 ;
+The answer is 184
+## Question 4
+select count(distinct replacement_cost) from film
+where length > 150 ;
+The answer is 21
